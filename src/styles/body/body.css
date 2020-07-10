@@ -1,0 +1,74 @@
+.background-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(#00ce7c, #053e07);
+
+}
+
+.background-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(#edc700, #ff8d1b);
+
+}
+
+.background-center {
+    position: absolute;
+    top: calc(135vh / -2 + 50vh);
+    left: calc(75vw / -2 + 50vw);
+    width: 75vw;
+    height: 135vh;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+.Logo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* .Logo>div>h3 {
+    font-family: 'Oswald',
+        sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    position: absolute;
+    color: white;
+    text-shadow: -3px -3px 0 #000,
+        3px -3px 0 #000,
+        -3px 3px 0 #000,
+        3px 3px 0 #000;
+
+} */
+
+.pineapple-image {
+    height: 70vh;
+    width: auto;
+    position: absolute;
+    top: calc(70vh / -2 + 50vh)
+}
+
+.pineapple-text {
+    height: 70vh;
+    width: auto;
+    position: relative;
+    top: calc(70vh / -2 + 50vh);
+    scale: 1;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.pineapple-text:hover {
+    scale: 1.075;
+}

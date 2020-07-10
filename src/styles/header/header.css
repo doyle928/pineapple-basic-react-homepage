@@ -1,0 +1,37 @@
+.Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header>ul {
+    margin: 0 25px;
+    padding: 0;
+    display: flex;
+}
+
+.Header>ul>li {
+    margin: 0;
+    padding: 10px 20px;
+    list-style: none;
+    font-family: 'Oswald',
+        sans-serif;
+    cursor: pointer;
+    transition: .15s;
+    color: #000;
+
+}
+
+.Header>ul:first-of-type {
+    font-size: 1.25em;
+}
+
+.Header>ul>li:hover {
+    color: #037f3b;
+}
